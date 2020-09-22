@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block main %}
+
+<div class="container pt-5">
+    <div class="row justify-content-md-center">
+        <div class="col-md-4">
+            <h1>Movie Prediction</h1>
+            <form action="" method="POST" id="post-form">
+                {% csrf_token %}
+                <div class="form-group">
+                    <label for="petal_width">Movie Name</label>
+                    <input type="text" name="movie_name" step="0.1" class="form-control" id="petal_width" placeholder="Enter Movie Name">
+                </div>
+                <button type="submit" value="Submit" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
