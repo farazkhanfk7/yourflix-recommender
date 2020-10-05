@@ -9,7 +9,7 @@ A movie recommendation system built using Django, Machine Learning and Web Scrap
 
 ## Setup
 > Use a virtual env
-1. ```$ git clone https://github.com/farazkhanfk7/movie-recommender.git```
+1. ```$ git clone https://github.com/farazkhanfk7/yourflix-recommender.git```
 
 2. Install dependencies ```$ pip install -r requirements.txt```
 
